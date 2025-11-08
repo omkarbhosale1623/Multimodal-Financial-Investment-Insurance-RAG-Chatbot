@@ -115,5 +115,4 @@ If a query is outside the document, it politely replies:
 “I cannot find that information in the uploaded factsheets.”
 
 👨‍💻 Credits
-
 Built by Omkar Bhosale
