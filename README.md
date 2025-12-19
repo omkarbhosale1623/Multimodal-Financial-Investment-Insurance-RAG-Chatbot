@@ -1,7 +1,7 @@
 # 📊 Bajaj Finserv Investment & Insurance RAG Chatbot (Multimodal + FAISS)
 
 This project is a **Retrieval-Augmented Generation (RAG)** chatbot for **Bajaj Finserv Mutual Fund Factsheets**.  
-It extracts data from monthly PDFs (text, tables, and charts via OCR), embeds them using **OpenAI Embeddings + CLIP**, and stores them in a **FAISS vector database**.
+It extracts data from monthly Factsheetss PDFs (text, tables, and charts via OCR), embeds them using **OpenAI Embeddings + CLIP**, and stores them in a **FAISS vector database**.
 
 The chatbot answers user queries about fund performance, CAGR, risk metrics, and asset allocation — **only using facts from the uploaded PDFs**.  
 It can visualize results as tables or charts and provides confidence scores for each answer.
@@ -115,4 +115,5 @@ If a query is outside the document, it politely replies:
 “I cannot find that information in the uploaded factsheets.”
 
 👨‍💻 Credits
+
 Built by Omkar Bhosale
